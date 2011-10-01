@@ -1,0 +1,21 @@
+{
+   "background_page": "background.html",
+   "browser_action": {
+      "default_icon": "images/tasks-19x19.png",
+      "default_title": "QuickTasks",
+      "popup": "popup.html"
+   },
+   "description": "The most efficient Chrome Extension for Google Tasks™. Now with task list support!",
+   "icons": {
+      "16": "images/tasks-16x16.png",
+      "32": "images/tasks-32x32.png",
+      "48": "images/tasks-48x48.png"
+   },
+   "name": "QuickTasks for Google Tasks™",
+   "omnibox": {
+      "keyword": "task"
+   },
+   "permissions": [ "contextMenus", "notifications", "tabs", "http://www.google.com/", "https://www.google.com/", "http://www.googleapis.com/", "https://www.googleapis.com/" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}
